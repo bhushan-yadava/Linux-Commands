@@ -1,0 +1,15 @@
+tar -cvf archive.tar dir/     # Create tar file
+
+tar -xvf archive.tar          # Extract tar file
+
+tar -czvf archive.tar.gz dir/ # Create compressed tarball
+
+tar -xzvf archive.tar.gz      # Extract compressed tarball
+
+gzip file.txt                 # Compress file
+
+gunzip file.txt.gz            # Decompress file
+
+zip -r archive.zip dir/       # Zip directory
+
+unzip archive.zip             # Unzip file
