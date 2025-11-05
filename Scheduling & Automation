@@ -1,0 +1,9 @@
+crontab -e                   # Edit cron jobs
+
+crontab -l                   # List cron jobs
+
+at 10:00                     # Schedule a one-time job
+
+atq                           # List scheduled jobs
+
+atrm job_id                  # Remove a job
