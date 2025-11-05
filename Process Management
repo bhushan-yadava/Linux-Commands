@@ -1,0 +1,21 @@
+ps                           # Show running processes
+
+ps aux                       # List all processes
+
+top                          # Show running processes interactively
+
+htop                         # Interactive process monitor (if installed)
+
+kill PID                     # Terminate process by ID
+
+kill -9 PID                  # Force kill process
+
+pkill process_name           # Kill process by name
+
+jobs                         # List background jobs
+
+bg                           # Resume job in background
+
+fg                           # Bring job to foreground
+
+nice -n 10 command           # Run command with priority
