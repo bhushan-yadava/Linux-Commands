@@ -1,0 +1,9 @@
+echo $HOME                   # Show home directory
+
+echo $PATH                   # Show PATH variable
+
+export VAR=value             # Set variable
+
+unset VAR                    # Remove variable
+
+printenv                     # List all environment variables
