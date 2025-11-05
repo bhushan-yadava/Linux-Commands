@@ -9,3 +9,15 @@ sudo apt remove nginx        # Uninstall package
 sudo apt search nginx        # Search for package
 
 sudo apt list --installed    # List installed packages
+
+
+
+##RHEL/CentOS:
+
+sudo yum update              # Update system
+
+sudo yum install nginx       # Install package
+
+sudo yum remove nginx        # Uninstall package
+
+sudo yum list installed      # List installed packages
