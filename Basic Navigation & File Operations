@@ -1,0 +1,37 @@
+pwd                  # Show current working directory
+
+ls                   # List files
+
+ls -l                # List with details
+
+ls -a                # Show hidden files
+
+cd /path/to/dir      # Change directory
+
+cd ..                # Go up one level
+
+mkdir dir_name       # Create directory
+
+rmdir dir_name       # Remove empty directory
+
+cp file1 file2       # Copy file
+
+mv file1 file2       # Move or rename file
+
+rm file.txt          # Delete file
+
+rm -rf folder        # Force delete directory
+
+touch file.txt       # Create empty file
+
+cat file.txt         # Show file content
+
+head file.txt        # Show first 10 lines
+
+tail file.txt        # Show last 10 lines
+
+tail -f file.txt     # Watch file for updates (useful for logs)
+
+clear                # Clear terminal
+
+history              # Show command history
