@@ -1,0 +1,27 @@
+uname -a                     # Show kernel version
+
+cat /etc/os-release          # Show OS details
+
+uptime                       # System uptime
+
+free -h                      # Memory usage
+
+vmstat                       # System performance stats
+
+iostat                       # I/O stats (requires sysstat)
+
+lscpu                        # CPU info
+
+lsblk                        # Show block devices
+
+df -h                        # Disk usage
+
+du -sh *                     # Directory size
+
+top                          # Live process view
+
+dmesg | tail                 # Kernel messages
+
+who                          # Show logged-in users
+
+last                         # Show login history
