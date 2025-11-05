@@ -1,0 +1,19 @@
+whoami                       # Show current username
+
+id                           # Display user & group IDs
+
+adduser devopsuser           # Add new user
+
+passwd devopsuser            # Set password for user
+
+usermod -aG sudo devopsuser  # Add user to sudo group
+
+deluser devopsuser           # Delete user
+
+groups devopsuser            # Show user’s groups
+
+chmod 755 script.sh          # Change file permissions
+
+chown user:group file.txt    # Change file ownership
+
+sudo su - username           # Switch to another user
