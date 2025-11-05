@@ -1,0 +1,11 @@
+df -h                        # Disk usage
+
+du -sh *                     # Directory size
+
+free -m                      # Memory usage
+
+vmstat 1                     # Live performance stats
+
+top                          # Process monitor
+
+uptime                       # Load average and uptime
