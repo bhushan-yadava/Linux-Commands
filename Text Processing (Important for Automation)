@@ -1,0 +1,19 @@
+grep "pattern" file.txt
+
+grep -r "keyword" /var/log/
+
+awk '{print $1,$2}' file.txt
+
+sed 's/old/new/g' file.txt
+
+cut -d',' -f1 file.csv
+
+sort file.txt
+
+uniq file.txt
+
+wc -l file.txt
+
+diff file1.txt file2.txt
+
+tee output.txt               # Redirect output to file and screen
