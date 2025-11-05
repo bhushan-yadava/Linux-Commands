@@ -1,0 +1,11 @@
+tail -f /var/log/syslog      # Monitor system logs
+
+tail -f /var/log/messages    # General logs
+
+cat /var/log/auth.log        # Authentication logs
+
+journalctl -xe               # System log viewer
+
+grep "error" /var/log/syslog # Search for errors
+
+dmesg | grep error           # Kernel-level errors
