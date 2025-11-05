@@ -1,0 +1,11 @@
+sudo apt update              # Update package index
+
+sudo apt upgrade             # Upgrade all packages
+
+sudo apt install nginx       # Install package
+
+sudo apt remove nginx        # Uninstall package
+
+sudo apt search nginx        # Search for package
+
+sudo apt list --installed    # List installed packages
