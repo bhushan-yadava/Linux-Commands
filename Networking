@@ -1,0 +1,27 @@
+ifconfig                     # Show network interfaces (older tool)
+
+ip addr show                 # Show IP addresses
+
+ping google.com              # Test connectivity
+
+hostname                     # Show system hostname
+
+hostnamectl set-hostname devops-node  # Set hostname
+
+netstat -tuln                # Show open ports
+
+ss -tuln                     # Modern alternative to netstat
+
+curl http://example.com      # Test URL response
+
+wget http://example.com/file # Download file
+
+scp file.txt user@IP:/path   # Secure copy file
+
+rsync -av source dest        # Sync files between servers
+
+nslookup domain.com          # DNS lookup
+
+traceroute google.com        # Show route to host
+
+telnet IP port               # Test port connectivity
