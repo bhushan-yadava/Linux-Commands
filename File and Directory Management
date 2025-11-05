@@ -1,0 +1,11 @@
+find / -name file.txt        # Search for a file
+
+locate filename              # Locate file quickly (needs updatedb)
+
+du -sh *                     # Show size of directories
+
+df -h                        # Show disk space usage
+
+file file.txt                # Identify file type
+
+stat file.txt                # Display detailed file info
