@@ -1,0 +1,15 @@
+systemctl status nginx       # Check service status
+
+systemctl start nginx        # Start service
+
+systemctl stop nginx         # Stop service
+
+systemctl restart nginx      # Restart service
+
+systemctl enable nginx       # Enable auto-start
+
+systemctl disable nginx      # Disable auto-start
+
+service nginx status         # Legacy method
+
+journalctl -u nginx          # View service logs
