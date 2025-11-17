@@ -20,7 +20,7 @@ mv file1 file2       # Move or rename file
 
 rm file.txt          # Delete file
 
-rm -rf folder        # Force delete directory
+rm -rf folder        # delete directory forcefully
 
 touch file.txt       # Create empty file
 
