@@ -1,4 +1,5 @@
 whoami               # to know about logger
+
 pwd                  # Show current working directory
 
 ls                   # List files
